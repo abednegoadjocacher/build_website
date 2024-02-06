@@ -1,0 +1,21 @@
+*{
+    margin-top: none;
+    margin-right: none;
+    margin-left: none;
+}
+
+.head1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div_1{
+width: 500px;
+align-items: center;
+}
+#ab{
+    text-align: center;
+    font-weight: 900px;
+    color: brown;
+}
