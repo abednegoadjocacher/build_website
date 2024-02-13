@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    char ch='a';
+    char ch=160;
 //  std::cout<<ch<<endl;
    cout<<ch<<endl;
    //typecasting it to print the ASCII value
