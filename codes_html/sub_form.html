@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit form</title>
+</head>
+<body>
+        <!--the name and the value attribute in the input tag
+        the name attribute show where the data goes after submitting
+        the value attribute show the exact value that is submitted -->
+        <form>
+            <label for="Nm1">First Name</label>
+                <input type="text" id="Nm1" name="NAME">
+            <label for="money">Pay</label>
+                <input type="radio" id="money" name="Payment" value="card">
+                <!--a dropdown menu
+                use the select tag with nested option tag-->
+                <select id="dropdown" name="colors">
+                    <option value="R">RED</option>
+                    <option value="G">GREEN</option>
+                    <option value="B">BLUE</option>
+                    <!--You can pre-select a color
+                    that is using the selected option on the color you want-->
+                    <option value="Y" selected>YELLOW</option>
+                </select>
+        </form>
+</body>
+</html>
